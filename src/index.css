@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(56, 56, 129);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.navbar input {
+  margin-right: 40px;
+  padding: 10px;
+  width: 180px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: width 0.3s ease;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+.navbar input:focus {
+  width: 300px;
+  transition: width 0.6s ease;
+  font-size: 20px;
+}
+
+
+.icon {
+  font-size: 30px;
+  position: absolute;
+  color: grey;
+  margin-top: 5px;
+  padding-left: 8px;
+}
+
+.helper1 {
+  height: 140px;
+}
+.helper2 {
+  height: 100px;
+}
+
+/* tried */
+
+span {
+  border: 2px solid black;
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  position: fixed;
+  width: 100%;
+}
+
+.top {
+  background-color: rgb(58, 54, 54);
+}
+
+.Details {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  min-width: auto;
+}
+
+.district {
+  border: 2px solid black;
+
+  width: 400px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: auto;
+}
